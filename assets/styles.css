@@ -1,10 +1,10 @@
 :root {
     
-    --primary: rgba(0, 255, 213, 0.666);
-    --secondary: blue;
-    --tertiary: beige;
+    --primary: rgb(1, 17, 15);
+    --secondary: rgb(200, 189, 189);
+    --tertiary:  rgb(240, 9, 9);
     --dark: black;
-    --light: white;
+    --light: rgb(200, 189, 189);
    
 }
 
