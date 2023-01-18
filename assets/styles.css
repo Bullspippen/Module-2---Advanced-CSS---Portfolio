@@ -82,5 +82,14 @@ nav a:hover {
 }
 
 .footer {
-    margin: 1;
-}
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #2c2e2f;
+    color: #bbbdbe;
+  }
+  
+  .footer h2 {
+    font-size: 20px;
