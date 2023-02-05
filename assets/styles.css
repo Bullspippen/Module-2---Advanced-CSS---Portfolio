@@ -1,105 +1,121 @@
 :root {
-    --primary: #011110;
-    --secondary: #C8BDBB;
-    --tertiary: #F0090A;
-    --dark: black;
-    --light: #C8BDBB;
-    --text-color: white;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: var(--light);
-    margin: 0;
-    padding: 0;
-    font-family: 'Times New Roman', Times, serif;
-    color: var(--primary);
-    line-height: 1.5;
-  }
-  
-  header {
-    padding: 15px 6% 15px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    background-color: var(--tertiary);
-    box-shadow: 0 5px 35px rgba(150, 204, 206, 0.4);
-  }
-  
-  header h1 {
-    color: var(--tertiary);
-    background-color: var(--secondary);
-    padding: 5px 1% 5px 2%;
-    margin: 0;
-    font-size: 4vw;
-    line-height: 1;
-    text-align: center;
-  }
-  
-  nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  nav a {
-    text-decoration: none;
-    padding: 5px 10px;
-    margin-right: 10px;
-    color: var(--secondary);
-    background-image: linear-gradient(
-      270deg,
-      var(--secondary) 0%,
-      var(--secondary) 100%
-    );
-    background-repeat: no-repeat;
-    background-size: 100% 0.2em;
-    background-position: bottom;
-    transition: all 0.25s ease-in;
-    font-size: 1.4rem;
-    text-align: center;
-  }
-  
-  nav a:hover {
-    background-size: 100% 100%;
-    color: var(--primary);
-  }
-  
-  .page-section {
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .page-section h2 {
-    margin-top: 20px;
-    color: var(--text-color);
-  }
-  
-  .page-section img {
-    height: 200px;
-    width: 200px;
-    margin-top: 20px;
-    border: 2px solid var(--text-color);
-  }
-  
-  .first-application img {
-    height: 400px;
-    width: 400px;
-  }
-  
-  .footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-    text-align: center
-  
+  --primary: #1C1E26;
+  --secondary: #5D5F68;
+  --tertiary: #9F9FA3;
+  --dark: #1C1E26;
+  --light: #F1F1F1;
+  --text-color: #F1F1F1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/1022692/pexels-photo-1022692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--light);
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  color: var(--primary);
+  line-height: 1.5;
+}
+header {
+  padding: 15px 6% 15px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: var(--tertiary);
+  box-shadow: 0 5px 35px rgba(150, 204, 206, 0.4);
+}
+
+h3 {
+  color: white;
+  font-weight: 900;
+}
+
+h3 a {
+  color: white;
+  text-decoration: none;
+}
+
+span {
+  color: white;
+  font-weight: 900;
+}
+
+header h1 {
+  color: var(--tertiary);
+  background-color: var(--secondary);
+  padding: 5px 1% 5px 2%;
+  margin: 0;
+  font-size: 4vw;
+  line-height: 1;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+nav a {
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  color: var(--secondary);
+  background-image: linear-gradient(
+    270deg,
+    var(--secondary) 0%,
+    var(--secondary) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: bottom;
+  transition: all 0.25s ease-in;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+nav a:hover {
+  background-size: 100% 100%;
+  color: var(--primary);
+}
+.page-section {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.page-section h2 {
+  margin-top: 20px;
+  color: var(--text-color);
+}
+
+.page-section img {
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+  border: 2px solid var(--text-color);
+}
+first-application img {
+  height: 400px;
+  width: 400px;
+}
+
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  text-align: center
